@@ -13,6 +13,7 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 | ⚡️      | null             |
 | ✅      | true             |
 | 🚫      | false            |
+| ⏮      |assign            |
 | ↪️      | for              |
 | 🔁      | while            |
 | ⏸      | if               |
@@ -33,6 +34,7 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 | *️⃣      | times            |
 | ➗      | devide           |
 | 🌗      | equals           |
+| 🌪       | not_equals       |
 | 🌘      | greater          |
 | 🌖      | lower            |
 | 🌒      | greter_or_equal  |
