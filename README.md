@@ -52,15 +52,20 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 
 
 * "Program" = "Blok"
+<br>
 
 * "Blok" = ["Blok_deklaracji"] 'end' ["Blok_instrukcji"] 'end'
+<br>
 
 * "Blok_deklaracji" = {"Dek_fun"} 
 * "Dek_fun" = 'function' ("Var_sym" | 'void') 'identifier' 'l_parenthesis' {"Var_sym" 'identifier'} 'r_parenthesis' {"Instrukcja"} 'return' "Wyrazenie" 'end'
+<br>
 
 * "Blok_instrukcji" = {"Instrukcja"}
+<br>
 
 * "Instrukcja" = ("Instr_inicjuj" | "Instr_podstaw" | "Instr_wywolaj" | "Instr_if" | "Instr_while" | "Instr_for" | "Wypisz" | "Instr_switch") 'end'
+<br>
 
 * "Instr_inicjuj" = ("Var_liczba_sym" 'identifier' 'assign' ("Liczba" | 'null') | 'string' 'identifier' 'assign' ('text' | 'null'))
 * "Instr_podstaw" = 'identifier' 'assign' ("Wyrazenie" | 'null')
@@ -73,9 +78,11 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 <br>
 * "Case_blok" = 'case' 'l_parenthesis' "Wyrazenie" 'r_parenthesis' 'then' {"Instrukcja"} ['break'] 'end'
 * "Case_default"  = 'default' 'then' {"Instrukcja"} 'end'
+<br>
 
 * "Var_sym" = ("Var_liczba_sym" | 'string' | 'boolean' | 'char')
 * "Var_liczba_sym" = ('int' | 'long' | 'float' | 'double')
+<br>
 
 * "Wyrazenie" = ("Skladnik" {"Oper_add" "Skladnik"} | 'true' | 'false')
 * "Skladnik" = "Czynnik" {"Oper_mul" "Czynnik"}
@@ -84,10 +91,12 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 * "Czynnik" = ('identifier' | "Liczba" | "Instr_wywolaj" | "Wyr_w_naw")
 * "Liczba" = ['minus'] 'number_unsigned'
 * "Wyr_w_naw" = 'l_parenthesis' "Wyrazenie" 'r_parenthesis'
+<br>
 
 * "Warunek" = ['not'] "Warunek_prosty" {"Oper_war" "Warunek_prosty"}
 * "Oper_war" = ('and' | 'or')
 * "Warunek_prosty" = "Wyrazenie" ("Oper_porownania") "Wyrazenie"
 * "Oper_porownania" = ('equals' | 'not_equals' | 'greater' | 'lower' | 'greter_or_equal' | 'lower_or_equal')
+<br>
 
 * "For_warunek" = ["Instr_inicjuj"] 'separator' ["Wyrazenie"] 'separator' ["Instr_podstaw"]
