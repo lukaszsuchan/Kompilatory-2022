@@ -69,7 +69,7 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 * "Instr_while" = 'while' "Warunek" 'do' {"Instrukcja"}
 * "Instr_for" = 'for' "For_warunek" 'do' {"Instrukcja"}
 * "Wypisz" = 'print' ("Wyrazenie" | 'text')
-* "Instr_switch" = 'switch' 'l_parenthesis' "Wyrazenie" 'r_parenthesis' "Case_blok" {"Case_blok"} "Case_default"
+* "Instr_switch" = 'switch' 'l_parenthesis' "Wyrazenie" 'r_parenthesis' "Case_blok" {"Case_blok"} "Case_default" \
 
 * "Case_blok" = 'case' 'l_parenthesis' "Wyrazenie" 'r_parenthesis' 'then' {"Instrukcja"} ['break'] 'end'
 * "Case_default"  = 'default' 'then' {"Instrukcja"} 'end'
