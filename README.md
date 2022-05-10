@@ -76,6 +76,7 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 * "Wypisz" = 'print' ("Wyrazenie" | 'text')
 * "Instr_switch" = 'switch' 'l_parenthesis' "Wyrazenie" 'r_parenthesis' "Case_blok" {"Case_blok"} "Case_default"
 <br>
+
 * "Case_blok" = 'case' 'l_parenthesis' "Wyrazenie" 'r_parenthesis' 'then' {"Instrukcja"} ['break'] 'end'
 * "Case_default"  = 'default' 'then' {"Instrukcja"} 'end'
 <br>
