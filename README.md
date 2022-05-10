@@ -44,7 +44,8 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 | 🤜      | l_square_bracket |
 | 🤛      | r_square_bracket |
 | 🔚      | end              |
-| 🖨️       | print           |
+| 🖨️      | print            |
+| ⚙️      | function         |
 |  [_a-zA-Z][_a-zA-Z0-9]*      | identifier       |
 |   [0-9][.]+[0-9]*     | number_unsigned  |
 |   \\"[_a-zA-Z0-9]*\\"     | text             |
