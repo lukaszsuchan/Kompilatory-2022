@@ -62,7 +62,7 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 
 "Instrukcja" = ("Instr_inicjuj" | "Instr_podstaw" | "Instr_wywolaj" | "Instr_if" | "Instr_while" | "Instr_for" | "Wypisz" | "Instr_switch") 'end'
 
-"Instr_inicjuj" = ("Var_liczba_sym" 'identifier' 'assign' ("Liczba" | 'null') | 'string' 'identifier' 'assign' ('text' | 'null')) #############################
+"Instr_inicjuj" = ("Var_liczba_sym" 'identifier' 'assign' ("Liczba" | 'null') | 'string' 'identifier' 'assign' ('text' | 'null'))
 "Instr_podstaw" = 'identifier' 'assign' ("Wyrazenie" | 'null')
 "Instr_wywolaj" = 'call' 'identifier' 'l_parenthesis' {"Wyrazenie"} 'r_parenthesis'
 "Instr_if" = 'if' "Warunek" 'then' "Instrukcja" {"Instrukcja"} ['end' 'else' "Instrukcja" {"Instrukcja"}]
