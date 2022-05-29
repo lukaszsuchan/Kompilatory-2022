@@ -34,7 +34,6 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 | *️⃣      | times            |
 | ➗      | devide           |
 | 🌗      | equals           |
-| 🌪       | not_equals       |
 | 🌘      | greater          |
 | 🌖      | lower            |
 | 🌒      | greter_or_equal  |
@@ -97,7 +96,8 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 * "Warunek" = ['not'] "Warunek_prosty" {"Oper_war" "Warunek_prosty"}
 * "Oper_war" = ('and' | 'or')
 * "Warunek_prosty" = "Wyrazenie" ("Oper_porownania") "Wyrazenie"
-* "Oper_porownania" = ('equals' | 'not_equals' | 'greater' | 'lower' | 'greter_or_equal' | 'lower_or_equal')
+* "Oper_porownania" = ('equals' | "not_equals" | 'greater' | 'lower' | 'greter_or_equal' | 'lower_or_equal')
+* "not_equals" = 'not' 'equals'
 <br>
 
 * "For_warunek" = ["Instr_inicjuj"] 'separator' ["Wyrazenie"] 'separator' ["Instr_podstaw"]
