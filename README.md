@@ -105,7 +105,7 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 <br><br>
 Przykład kodu
 ```
-⚙️ 🍎 add(🍎 a 🍎 b)
+⚙️ 🍎 add🌜🍎 a 🍎 b🌛
 📬 a ➕ b 🔚
 
 🔚
@@ -114,7 +114,7 @@ Przykład kodu
 🍎 y ⏮ 6 🔚
 
 🍎 wynik ⏮ ⚡️ 🔚
-wynik ⏮ 📞 add(x y) 🔚
+wynik ⏮ 📞 add🌜x y🌛 🔚
 
 ⏸ wynik 🌘 10 💥
 🖨️ "Wiecej niz 10" 🔚 🔚
