@@ -101,3 +101,25 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 <br>
 
 * "For_warunek" = ["Instr_inicjuj"] 'separator' ["Wyrazenie"] 'separator' ["Instr_podstaw"]
+
+<br><br>
+Przykład kodu
+```
+⚙️ 🍎 add(🍎 a 🍎 b)
+📬 a ➕ b 🔚
+
+🔚
+
+🍎 x ⏮ 5 🔚
+🍎 y ⏮ 6 🔚
+
+🍎 wynik ⏮ ⚡️ 🔚
+wynik ⏮ 📞 add(x y) 🔚
+
+⏸ wynik 🌘 10 💥
+🖨️ "Wiecej niz 10" 🔚 🔚
+⏯
+🖨️ "Mniej niz 10" 🔚 🔚
+
+🔚
+```
