@@ -3,19 +3,19 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 | symbol |       token      |
 |:------:|:----------------:|
 | 🍎      | int              |
-| 🍐      | long             |
+| 🍌      | long             |
 | 🍇      | float            |
 | 🍒      | double           |
 | 🍓      | char             |
 | 🍉      | string           |
 | ❔      | boolean          |
-| ⭐️      | void             |
+| 🌟      | void             |
 | ⚡️      | null             |
 | ✅      | true             |
 | 🚫      | false            |
 | ⏮      |assign            |
 | ↪️      | for              |
-| 🔁      | while            |
+| 🔄      | while            |
 | ⏸      | if               |
 | ⏯      | else             |
 | 💡      | switch           |
@@ -31,11 +31,11 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 | ❕      | not              |
 | ➕      | plus             |
 | ➖      | minus            |
-| *️⃣      | times            |
+| ✖️      | times            |
 | ➗      | devide           |
 | 🌗      | equals           |
-| 🌘      | greater          |
-| 🌖      | lower            |
+| 🌝      | greater          |
+| 🌚      | lower            |
 | 🌒      | greter_or_equal  |
 | 🌔      | lower_or_equal   |
 | 🌜      | l_parenthesis    |
