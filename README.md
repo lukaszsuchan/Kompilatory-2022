@@ -47,7 +47,7 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 | ⚙️      | function         |
 |  [_a-zA-Z][_a-zA-Z0-9]*      | identifier       |
 |   [0-9][.]+[0-9]*     | number_unsigned  |
-|   \\"[_a-zA-Z0-9]*\\"     | text             |
+|   \\".*\\"     | text             |
 
 
 * "Program" = "Blok"
