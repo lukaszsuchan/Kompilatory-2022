@@ -100,7 +100,7 @@ Repozytorium do projektu w ramach przedmiotu 'Teoria Kompilacji i Kompilatory' n
 * "not_equals" = 'not' 'equals'
 <br>
 
-* "For_warunek" = ["Instr_inicjuj"] ["Wyrazenie"] ["Instr_podstaw"]
+* "For_warunek" = "Instr_inicjuj" "Wyrazenie" "Instr_podstaw"
 
 <br><br>
 Przykład kodu
